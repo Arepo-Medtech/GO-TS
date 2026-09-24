@@ -1,0 +1,9 @@
+# releases, licensed content, caches and secrets stay out of git
+go-releases/
+cache/
+out/
+*.duckdb
+*.parquet
+.env
+.venv/
+__pycache__/

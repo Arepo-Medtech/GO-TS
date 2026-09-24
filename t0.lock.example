@@ -1,0 +1,4 @@
+# Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Copy to t0.lock and fill in.
+release_id: GO-YYYYMMDD-xxxxxxxx
+release_sha256: "<full release fingerprint from manifest.json>"
+releases_dir: ~/go-releases        # overridable with GO_RELEASES

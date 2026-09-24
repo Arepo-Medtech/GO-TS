@@ -3,13 +3,14 @@
 Track **T4** of the Graph-Ontology next phases. A FHIR R4 terminology service for Australian clinical and medicines vocabularies: versioned lookup, validation, subsumption, expansion (SNOMED ECL) and translation, plus a free-text matcher, with tier and source on every mapping.
 
 ## Start here
-1. **[T0.md](T0.md)**: the shared foundations, identical in all four track repos (GO-Harness, GO-HGT, GO-PJI, GO-TS):
-   frozen snapshots, the licence matrix, algebraic properties on predicates, the validation register, shared views,
-   the SSSOM export and the quiz suite. This track consumes a T0 release; it never reads the live graph.
-2. The full recipe for this track is in `COMPENDIUM.md` (track T4), in
-   [Arepo-Medtech/graph-ontology-compendium](https://github.com/Arepo-Medtech/graph-ontology-compendium).
-3. Method (rules R1–R17, validation layers L0–L6) is governed by `PLAYBOOK.md` in
-   [Arepo-Medtech/one-shot](https://github.com/Arepo-Medtech/one-shot).
+This repository is self-contained. Two documents hold everything this track needs:
+
+1. **[PLAYBOOK.md](PLAYBOOK.md)**: the authoritative playbook for this track. It covers mission, rules, architecture,
+   stages and gates, engineering guidance, evaluation, scorecard, operations, governance, risks, prompts and
+   references, with the hand-check protocol and templates as appendices.
+2. **[T0.md](T0.md)**: the shared foundations this track consumes (frozen snapshots, the licence matrix, predicate
+   properties, the validation register, shared views, the SSSOM export and the quiz suite). It is identical across
+   the four Graph-Ontology track repositories.
 
 ## How this track uses T0
 - generates FHIR ConceptMaps from the SSSOM export: Tier 1/2 and native routes into clinical maps, ungraded and inadmissible into candidate maps;

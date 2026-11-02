@@ -1,0 +1,5 @@
+# Pin of the Graph-Ontology T0 release this track reads (T0.md §9). Release 2, the first full T0 release: every gate passed.
+release_id: GO-20261103-4e9f3709
+release_sha256: "4e9f3709dd3a240d5f016ddaf8ee2f761aa92fb01bcdefdcd142f82441572244"
+releases_dir: ~/go-releases        # overridable with GO_RELEASES
+# producer: Graph-Ontology 2566570 (graph), docs and CI at 0aafcce; pinned 3 Nov 2026
